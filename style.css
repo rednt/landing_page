@@ -9,7 +9,8 @@
     background-color: #1f2937;
     justify-content: space-around;
     padding: 20px 0;
-
+    height:60vh;
+    flex-wrap: wrap;
 }
 
 .menu{
@@ -22,7 +23,7 @@
 .logo{
     margin-right: auto;
     color: #f9faf8;
-    size: 24px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -32,5 +33,23 @@
     justify-content: space-evenly; 
     padding: 5px;
     color: #e5e7eb;
-    size: 18px;
+    font-size: 18px;
+}
+
+.smal{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.big{
+    color:#f9faf8;
+    font-size:48px;
+}
+
+.main_text{
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex:initial;
 }
