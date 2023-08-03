@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header_container{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding: 20px 0;
+
+}
+
+.menu{
+    width: 75vw;
+    display: flex;
+    justify-content: space-around; 
+    padding: 5px;
+}
+
+.logo{
+    margin-right: auto;
+    color: #f9faf8;
+    size: 24px;
+    font-weight: bolder;
+}
+
+.links{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 5px;
+    color: #e5e7eb;
+    size: 18px;
+}
