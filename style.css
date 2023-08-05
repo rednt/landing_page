@@ -221,3 +221,15 @@ p{
   color: rgb(136, 21, 21);
   font-weight: bolder;
 }
+
+.footer_container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#302e2c;
+  height: 100px;
+}
+
+.footp{
+  color:#f3f3f3
+}
