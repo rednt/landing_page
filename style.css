@@ -135,7 +135,7 @@ p{
   transition: 0.2s;
 }
 
-p:hover{
+.tr:hover{
   color: #6a856e;
 }
 
@@ -150,4 +150,25 @@ p:hover{
 
 .hed:hover{
   box-shadow: 0px 2px 0px #8a8785;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  background-color: #ceddca;
+  height: 350px;
+  align-items: center;
+}
+
+.qt{
+  color: #302c26;
+  font-size: 23px;
+  width: 60vw;
+  font-style: italic;
+}
+
+.wik{
+  color: #302c26;
+  font-size: 20px;
+  font-weight: bolder;
 }
