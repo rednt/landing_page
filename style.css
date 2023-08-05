@@ -143,5 +143,11 @@ p:hover{
   position: absolute;
   bottom: 27vh;
   left: 3.2pc;
-  color:#302c26
+  color:#302c26;
+  border-radius: 10px;
+  transition: 0.05s; 
+}
+
+.hed:hover{
+  box-shadow: 0px 2px 0px #8a8785;
 }
