@@ -138,3 +138,10 @@ p{
 p:hover{
   color: #6a856e;
 }
+
+.hed{
+  position: absolute;
+  bottom: 27vh;
+  left: 3.2pc;
+  color:#302c26
+}
