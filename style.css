@@ -7,7 +7,7 @@
 
 .header_container{
     display: flex;
-    background-color: #ec553b;
+    background-color: #a37c75;
     justify-content: space-around;
     padding: 20px 0;
     height:60vh;
@@ -170,5 +170,54 @@ p{
 .wik{
   color: #302c26;
   font-size: 20px;
+  font-weight: bolder;
+}
+
+.signup_box{
+  display: flex;
+  justify-content: center;
+  background-color: #e7e4dd;
+  height: 300px;
+  align-items: center;
+}
+
+.box{
+  width: 70%;
+  height: 35%;
+  border-radius: 10px;
+  border: 2px solid #302e2c;
+  background-color: #302e2c;
+  padding: 25px 50px 0px 50px;
+}
+
+.txt{
+  position: relative;
+  margin-left: 10px;
+  color:#f9faf8;
+  font-size:20px;
+}
+
+.txtsm{
+  position: relative;
+  margin-left: 10px;
+  color:#f9faf8;
+  font-size:15px;
+}
+
+.sign2{
+  position: relative;
+  bottom: 1.5em;
+  float:right;
+  border: 1px solid rgb(228, 226, 112);
+  padding: 5px 20px;
+  font-size: 12px;
+  background-color: #eee2cd; color: rgb(100, 14, 14);
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.sign2:hover {
+  background-color: #a4e95a; /* Green */
+  color: rgb(136, 21, 21);
   font-weight: bolder;
 }
